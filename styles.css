@@ -1,0 +1,26 @@
+img{
+    object-fit: cover;
+    border-radius: 10px;
+    width: 40%;
+    height: auto;
+    transition: 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4 );
+}
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color:black
+}
+
+body{
+    background-image: url('South-Africa-620x400.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
